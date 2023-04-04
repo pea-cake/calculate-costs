@@ -1,0 +1,40 @@
+.App{
+	padding: 10px;
+	padding-bottom: 100px;
+}
+.head{
+	font-size: 2rem;
+	color: #000000;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 10px;
+	.clear-btn{
+		font-size: .5rem;
+	}
+	.compute-btn{
+		width: 80%;
+		background-color: bisque;
+		margin-top: 10px;
+	}
+}
+.color-red{
+	color: rgb(114, 21, 21);
+}
+.color-green{
+	color: rgb(57, 91, 6);
+}
+.result{
+	text-align: center;
+}
