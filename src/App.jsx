@@ -78,7 +78,7 @@ function App() {
 	}
 	return (
 		<div className='App'>
-			<div className='head'>苦逼工具-合租计算电费</div>
+			<div className='head'>合租计算水/电/气费</div>
 			 {local_options?<button onClick={handleUseLast}>使用上次数据</button>:''}
 			<div className='totalCosts'>
 				<span>总费用：</span>
