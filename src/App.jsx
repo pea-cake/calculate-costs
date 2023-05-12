@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.scss'
 import Room from './components/Room'
 import {computeEveryRoomPrice} from './utils'
@@ -91,6 +89,7 @@ function App() {
 			<div className='totalCosts'>
 				<span>天数：</span>
 				<input onChange={(e)=>setDays(e.target.value)} type="telephone" value={days} />天
+				<div className='tip'>(天数：仅用来自动填充人员所住天数)</div>
 			</div>
 			<div className='rooms'>
 				{rooms.map((room, index) => <Room onChange={handleChange} onDeleteRoom={handleDeleteRoom} data={{ room }} days={days} i={index} key={index} />)}
